@@ -16,3 +16,10 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root')
 );
+
+// actions : type을 정의하고 함수를 할당함
+// components : component를 정의함
+// containers : 정의된 콤포넌틀를 불러오고 dispatch, connect 함
+// reducers : type에 따른 연산을 수행함 
+// utils : 참조할 값과 함수를 정의함
+// index.js 시작 : container/app.js을 로드하고 reducer를 연동한다
