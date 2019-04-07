@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Buttons from '../components/Buttons';
 import CounterListContainer from './CounterListContainer';
 
@@ -16,7 +16,7 @@ class App extends Component {
                     onCreate={onCreate}
                     onRemove={onRemove}
                 />
-                <CounterListContainer/>
+                <CounterListContainer />
             </div>
         );
     }
